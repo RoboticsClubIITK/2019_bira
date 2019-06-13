@@ -1,0 +1,30 @@
+at
+at+name=BrainSense 745
+at+uart=57600,0,0
+at+role=0
+at+pswd=0000
+at+cmode=1
+at+class=0
+at+init
+
+
+//(remove double quotes from AT command)
+To return HC-05 to mfg. default settings: "AT+ORGL"
+To get version of your HC-05 enter: "AT+VERSION?"
+To change device name from the default HC-05 to let's say MYBLUE enter: "AT+NAME=MYBLUE"
+To change default security code from 1234 to 2987 enter: "AT+PSWD=2987"
+To change HC-05 baud rate from default 9600 to 115200, 1 stop bit, 0 parity enter: "AT+UART=115200,1,0"//
+
+
+
+
+
+
+AT
+AT+NAME=BRAINSENSE 801
+AT+UART=57600,0,0
+AT+ROLE=0
+AT+PSWD=1234
+AT+CMODE=1
+AT+CLASS=0
+AT+INIT
