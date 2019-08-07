@@ -1,0 +1,19 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(452,5): warning MSB8028: The intermediate directory (x64\Release\) contains files shared from another project (Algo SDK Sample.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  BIRA.cpp
+D:\project\sdk\EEG_Algo_SDK_Windows\Algo SDK Sample\Algo SDK Sample\BIRA.cpp(3): warning C4603:  'FSTREAM_STATIC': macro is not defined or definition is different after precompiled header use
+D:\project\sdk\EEG_Algo_SDK_Windows\Algo SDK Sample\Algo SDK Sample\BIRA.cpp(3): message :  Add macro to precompiled header instead of defining here
+D:\project\sdk\EEG_Algo_SDK_Windows\Algo SDK Sample\Algo SDK Sample\BIRA.cpp(7): message :  use of precompiled header
+D:\project\sdk\EEG_Algo_SDK_Windows\Algo SDK Sample\Algo SDK Sample\BIRA.cpp(110,1): warning C4005:  'WM_USER': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(2521): message :  see previous definition of 'WM_USER'
+D:\project\sdk\EEG_Algo_SDK_Windows\Algo SDK Sample\Algo SDK Sample\BIRA.cpp(408,12): warning C4244:  'initializing': conversion from 'NS_ALGO_ATT_INDEX' to 'int', possible loss of data
+D:\project\sdk\EEG_Algo_SDK_Windows\Algo SDK Sample\Algo SDK Sample\BIRA.cpp(416,12): warning C4244:  'initializing': conversion from 'NS_ALGO_MED_INDEX' to 'int', possible loss of data
+D:\project\sdk\EEG_Algo_SDK_Windows\Algo SDK Sample\Algo SDK Sample\BIRA.cpp(422,44): warning C4474:  'swprintf' : too many arguments passed for format string
+D:\project\sdk\EEG_Algo_SDK_Windows\Algo SDK Sample\Algo SDK Sample\BIRA.cpp(422,44): message :  placeholders and their parameters expect 0 variadic arguments, but 1 were provided
+D:\project\sdk\EEG_Algo_SDK_Windows\Algo SDK Sample\Algo SDK Sample\BIRA.cpp(433,18): warning C4244:  'initializing': conversion from 'NS_ALGO_EYE_BLINK_STRENGTH' to 'int', possible loss of data
+D:\project\sdk\EEG_Algo_SDK_Windows\Algo SDK Sample\Algo SDK Sample\BIRA.cpp(885,14): warning C4101:  'hFile': unreferenced local variable
+  Generating code
+  1 of 23 functions ( 4.3%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Algo SDK Sample.vcxproj -> D:\project\sdk\EEG_Algo_SDK_Windows\Algo SDK Sample\x64\Release\BIRA.exe
